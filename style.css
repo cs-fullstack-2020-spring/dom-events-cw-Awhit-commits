@@ -1,0 +1,58 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+    gap: 1%;
+    
+}
+.header ,.Footer, .sidebar, .main,.twin{
+    border: 1px solid;
+    color: white;
+    
+}
+.main,.sidebar,.twin{
+    text-align: center;
+}
+.header{
+    grid-row: 1;
+    grid-column: 1/5;
+    background-color: lightblue;
+}
+.Footer{
+    grid-row: 4;
+    grid-column: 1/5;
+    background-color: blue;
+}
+.main{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    width: 105%;
+    background-color: lawngreen;
+}
+.sidebar{
+    grid-row: 2/3;
+    grid-column:3/ 4;
+    background-color: violet;
+}
+#twin1{
+    grid-row: 3/4;
+    grid-column: 2/3;
+}
+
+#twin2{
+    grid-row: 3/4;
+    grid-column: 3/4;
+}
+.twin{
+    background-color: orange;
+}
+
+.newColorforOne{
+    text-align: center;
+    background-color: blue;
+}
+
+.newColorforTwo{
+    text-align: center;
+    background-color: red;
+}
