@@ -4,7 +4,7 @@ let redChanger = document.getElementById("changeme");
 
 //A few debugging print statements to make sure I'm getting the right values (buttons)
 console.log(blueChanger.innerText);
-
+// !! NICE
 console.log(redChanger.innerText);
 
 //Choosing querySelectorAll to get all of my div tags
